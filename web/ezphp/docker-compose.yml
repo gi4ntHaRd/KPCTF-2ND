@@ -1,0 +1,8 @@
+version: "2.0"
+services:
+  app:
+    build: .
+    image: y1nglamore/ctf:php7test
+    # restart: always
+    ports:
+      - 30002:80
